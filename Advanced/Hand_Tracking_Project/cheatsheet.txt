@@ -1,0 +1,11 @@
+1 - Hand Tracking
+    inbuilt webcam index no - 0
+    for detection mediapipe library is used
+    cv2 deals with BGR while mediapipe deals with RGB
+    conversion of BGR to RGB is imp
+    Then image is processed and landmarks are detected
+    landmarks with id and x,y,z values can be converted to exact pizel location
+    by multiplying height to x value and width to y value.
+    This will give exact pixel which can be used further
+    Also FPS can be generated
+
